@@ -1,0 +1,15 @@
+[package]
+name = "oxide-engine"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+stl_io = "0.11.0"
+image = { version = "0.25.10", features = [ "png" ]}
+
+[dev-dependencies]
+divan = "0.1.21"
+
+[[bench]]
+name = "benchmarks"
+harness = false

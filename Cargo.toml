@@ -1,0 +1,6 @@
+[workspace]
+members = ["oxide-slicer", "oxide-engine", "oxide-supports", "oxide-network", "oxide-mesh"]
+resolver = "3"
+
+[workspace.dependencies]
+oxide-mesh = { path = "oxide-mesh" }

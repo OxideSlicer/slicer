@@ -1,0 +1,17 @@
+[package]
+name = "oxide-mesh"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ruststep = "0.4.0"
+stl_io = "0.11.0"
+truck-meshalgo = {version = "0.4.0", features = [
+    "tessellation"
+]}
+truck-stepio = {version = "0.3.0", features = [
+    "in",
+    "derive"
+]}
+wavefront = "0.2.3"
+
